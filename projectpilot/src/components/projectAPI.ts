@@ -1,6 +1,6 @@
 import { Project } from './Projects';
 
-const baseUrl = 'https://typescript-crud-app-cg17.vercel.app';
+const baseUrl = 'http://localhost:4000';
 const url = `${baseUrl}/projects`;
 
 function translateStatusToErrorMessage(status: number): string {
