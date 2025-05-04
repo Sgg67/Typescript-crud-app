@@ -11,6 +11,7 @@
     "api": "json-server api/db.json --port 4000"
   },
   "dependencies": {
+    "http-proxy-middleware": "^3.0.5",
     "json-server": "^0.16.2",
     "mini.css": "^3.0.1",
     "react": "^19.0.0",
@@ -19,10 +20,12 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
+    "@types/http-proxy-middleware": "^0.19.3",
     "@types/node": "^22.15.3",
     "@types/prop-types": "^15.7.14",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "@vercel/node": "^5.1.15",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.22.0",
     "eslint-plugin-react-hooks": "^5.2.0",
