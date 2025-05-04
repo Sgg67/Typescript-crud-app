@@ -1,6 +1,6 @@
 import { Project } from './Projects';
 
-const baseUrl = 'https://typescript-crud-app.vercel.app';
+const baseUrl = 'https://typescript-crud-app-cg17.vercel.app';
 const url = `${baseUrl}/projects`;
 
 function translateStatusToErrorMessage(status: number): string {
