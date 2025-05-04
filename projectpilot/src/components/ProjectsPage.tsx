@@ -17,7 +17,7 @@ const ProjectsPage = () => {
   const [projects, setProjects] = useState<Project[]>(getLocalProjects());
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | undefined>(undefined);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage] = useState(1);
 
   useEffect(() => {
     async function loadProjects() {
